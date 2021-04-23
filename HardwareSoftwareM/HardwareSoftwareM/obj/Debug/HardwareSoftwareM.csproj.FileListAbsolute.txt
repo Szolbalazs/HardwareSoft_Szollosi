@@ -1,0 +1,15 @@
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\bin\Debug\HardwareSoftwareM.exe.config
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\bin\Debug\HardwareSoftwareM.exe
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\bin\Debug\HardwareSoftwareM.pdb
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.csprojAssemblyReference.cache
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\MainWindow.g.cs
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\App.g.cs
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM_MarkupCompile.cache
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM_MarkupCompile.lref
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\MainWindow.baml
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.g.resources
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.Properties.Resources.resources
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.csproj.GenerateResource.cache
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.csproj.CoreCompileInputs.cache
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.exe
+D:\Munka\Komplex prog\HardwareSoftware\HardwareSoftwareM\HardwareSoftwareM\obj\Debug\HardwareSoftwareM.pdb

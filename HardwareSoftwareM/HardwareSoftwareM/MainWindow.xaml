@@ -1,0 +1,66 @@
+﻿<Window x:Class="HardwareSoftwareM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HardwareSoftwareM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="774">
+            <TabItem Header="Általános">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="45*"/>
+                        <ColumnDefinition Width="91*"/>
+                        <ColumnDefinition Width="633*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label x:Name="HDDlab" Content="OP. Rendszer helye:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="3" FontSize="15"/>
+                    <Label x:Name="OSlab" Content="Operációs rendszer:" HorizontalAlignment="Left" Margin="10,162,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="3" FontSize="15"/>
+                    <Label x:Name="Helylab" Content="Program helye:" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="3" FontSize="15"/>
+                    <Label x:Name="NAMElab" Content="Számítógép neve:" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.488" Width="152" Grid.ColumnSpan="3" FontSize="15"/>
+                    <Label x:Name="USERlab" Content="Felhasználó:" HorizontalAlignment="Left" Margin="10,294,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="3" FontSize="15"/>
+                    <Button x:Name="lekerdezes" Content="Adatok lekérdezése" Grid.Column="2" HorizontalAlignment="Left" Margin="465,31,0,0" VerticalAlignment="Top" Width="147" Height="35" FontSize="15" FontFamily="Segoe UI Semibold" Background="#FF51DF05" Click="lekerdezes_Click"/>
+                    <Button x:Name="torles" Content="Törlés" Grid.Column="2" HorizontalAlignment="Left" Margin="465,87,0,0" VerticalAlignment="Top" Width="147" Height="34" FontSize="15" FontFamily="Segoe UI Semibold" Background="#FFB10000" Click="torles_Click"/>
+                    <TextBox x:Name="box3" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="74,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box4" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="74,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box5" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="74,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box6" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="74,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box7" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="74,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <Button x:Name="proci" Content="Processzor infók" Grid.Column="2" HorizontalAlignment="Left" Margin="0,31,0,0" VerticalAlignment="Top" Width="177" Height="35" FontSize="15" Background="#FFAFD060" Click="proci_Click"/>
+                </Grid>
+
+            </TabItem>
+            <TabItem Header="Alaplap">
+                <Grid Background="#FFE5E5E5">
+                    <Label x:Name="lap1" Content="Gyártó:" HorizontalAlignment="Left" Margin="10,19,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <Label x:Name="lap2" Content="PrimaryBusType:" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <Label x:Name="lap3" Content="SecondaryBusType:" HorizontalAlignment="Left" Margin="10,113,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <Label x:Name="lap4" Content="Termék:" HorizontalAlignment="Left" Margin="10,162,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <Label x:Name="lap5" Content="Sorozatszám:" HorizontalAlignment="Left" Margin="10,206,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <Label x:Name="lap6" Content="Státusz:" HorizontalAlignment="Left" Margin="10,249,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.482,0.488" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <Label x:Name="lap7" Content="Rendszer név:" HorizontalAlignment="Left" Margin="10,294,0,0" VerticalAlignment="Top" Width="152" Grid.ColumnSpan="2" FontSize="15"/>
+                    <TextBox x:Name="box11" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,23,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box22" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,66,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box33" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box44" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,169,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box55" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,213,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box66" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,256,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <TextBox x:Name="box77" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="165.2,301,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="245" FontSize="15"/>
+                    <Button x:Name="b1" Content="Lekérdez" HorizontalAlignment="Left" Margin="563,26,0,0" VerticalAlignment="Top" Width="128" Height="37" Click="b1_Click"/>
+                    <Button x:Name="b2" Content="Törlés" HorizontalAlignment="Left" Margin="563,89,0,0" VerticalAlignment="Top" Width="128" Height="34" Click="b2_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Programok">
+                <Grid Background="#FFE5E5E5">
+                    <ListBox x:Name="listbox1" Margin="21,18,18.8,71"/>
+                </Grid>
+            </TabItem>
+
+
+
+
+        </TabControl>
+
+    </Grid>
+</Window>
